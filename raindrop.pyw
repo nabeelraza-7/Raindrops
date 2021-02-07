@@ -17,8 +17,8 @@ width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Rain")
 screen.fill(BLACK)
-# fps = 60
-# clock = pygame.time.Clock()
+fps = 60
+clock = pygame.time.Clock()
 class rain:
     def __init__(self, screen):
         self.screen = screen
@@ -50,7 +50,7 @@ for i in range(800):
 flag = False
 running = True
 while running:
-    # clock.tick(fps)
+    clock.tick(fps)
     screen.fill(BLACK)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
