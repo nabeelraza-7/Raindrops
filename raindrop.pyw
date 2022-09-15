@@ -15,7 +15,7 @@ rect_height = 10
 pygame.init()
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Rain")
+pygame.display.set_caption("Purple Rain")
 screen.fill(BLACK)
 fps = 60
 clock = pygame.time.Clock()
